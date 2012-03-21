@@ -2,6 +2,38 @@
 
 The Chosen (see http://harvesthq.github.com/chosen/) javascript plugin for better form checkboxes, radios and input selects now packaged as a gem for Rails 3. All the Chosen assets are pre-packaged to be used with the Rails 3 Asset pipeline and follows those conventions.
 
+== Use
+
+Simply insert requirements into your manifest application.js and application.css files
+
+application.css:
+
+/*
+ *= ...
+ *= require chosen.css
+*/
+
+The css should be set up to reference the sprite image made available in the /assets/ folder in the root of the app.
+
+application.js:
+
+Using coffeescript assets (divided into 3 parts)
+
+//= require jquery
+//= require_tree .
+
+//= require select-parser
+//= require abstract-chosen
+//= require chosen.jquery
+
+
+Using javascript assets
+
+//= require jquery
+//= require_tree .
+//= require chosen.jquery
+
+
 == Contributing to chosen-rails
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
