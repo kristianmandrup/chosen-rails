@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
     "spec/chosen-rails_spec.rb",
     "spec/spec_helper.rb",
     "vendor/assets/images/chosen-sprite.png",
-    "vendor/assets/javascripts/.DS_Store",
     "vendor/assets/javascripts/abstract-chosen.js.coffee",
     "vendor/assets/javascripts/chosen.jquery.js",
     "vendor/assets/javascripts/chosen.jquery.js.coffee",
