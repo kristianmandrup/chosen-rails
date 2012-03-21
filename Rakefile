@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "chosen-rails"
   gem.homepage = "http://github.com/kristianmandrup/chosen-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{The Chosen javascript plugin packaged for Rails 3}
+  gem.description = %Q{Use Chosen with Rails 3 as a gem}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
   # dependencies defined in Gemfile
