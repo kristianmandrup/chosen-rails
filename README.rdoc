@@ -1,4 +1,4 @@
-== chosen-rails
+== Chosen rails
 
 The Chosen (see http://harvesthq.github.com/chosen/) javascript plugin for better form checkboxes, radios and input selects now packaged as a gem for Rails 3. All the Chosen assets are pre-packaged to be used with the Rails 3 Asset pipeline and follows those conventions.
 

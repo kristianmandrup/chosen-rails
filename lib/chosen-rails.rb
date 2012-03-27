@@ -1,5 +1,5 @@
 module ChosenRails
 	class Engine < ::Rails::Engine
-		puts "ChosenRails loaded"
+		# puts "ChosenRails loaded"
 	end
 end
